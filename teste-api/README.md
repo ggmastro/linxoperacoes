@@ -7,7 +7,6 @@ Para isso, você deverá criar uma aplicação que tenha como objetivo visualiza
  Tenha APIs que retornem os dados do banco de dados no formato JSON
    * Todos os usuários: **/users**
    * Usuário específico: **/users/{id}**
-   * Posts de um usuário: **/users/{id}/posts**
 
 A aplicação pode ser feita utilizando qualquer framework atual.
 
