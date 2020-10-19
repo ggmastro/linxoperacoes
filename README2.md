@@ -31,3 +31,11 @@ mutation {
 }) {
 	success
 	name {
+
+ }
+    errors {
+      field
+      message
+    }
+  }
+}
