@@ -1,3 +1,6 @@
+http:// http://jsonplaceholder.typicode.com/users
+
+
 mutation {
 	listUsers(input: {
 			Id: 1
