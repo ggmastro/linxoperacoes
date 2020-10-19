@@ -1,4 +1,9 @@
-http:// http://jsonplaceholder.typicode.com/users
+import urllib.request
+from bs4 import BeautifulSoup
+wiki = "http://jsonplaceholder.typicode.com/users"
+page = urllib.request.urlopen(wiki)
+soup = BeautifulSoup(page, 'html5lib')
+
 
 
 mutation {
