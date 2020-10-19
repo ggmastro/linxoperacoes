@@ -10,10 +10,10 @@ mutation {
 	listUsers(input: {
 			Id: 1
 			Id_primario[{
-					id: 
-                    name: ""
-					username: ""
-					email: ""
+			id: 
+                        name: ""
+                        username: ""
+                        email: ""
 
 				}
 			}]
